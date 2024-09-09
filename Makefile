@@ -1,4 +1,3 @@
 shell:
-	docker run --rm -it \
-	-v $(shell pwd):/workspace \
+	docker run --rm -it -v $(shell pwd):/workspace \
 	mobiledevops/android-sdk-image
